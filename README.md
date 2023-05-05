@@ -18,3 +18,7 @@ WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
+
+
+
+The password can include special characters. If you're unfamiliar with these, see this list of Password Special Characters from the OWASP FoundationLinks to an external site.. https://www.owasp.org/index.php/Password_special_characters 
