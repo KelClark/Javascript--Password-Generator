@@ -1,26 +1,29 @@
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
 
-Acceptance Criteria
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
+Password Generator
+A simple password generator that allows users to generate secure passwords based on responses to prompted character selections.
 
 
+Usage
+1. Clone the repository or copy the contents of the script.js file into your project.
+2. Click the "Generate Password" button to start the password generation process.
+3. Follow the prompts to select the desired password length and character types.
+4. After confirming the prompts, the generated password will be displayed.
 
-The password can include special characters. If you're unfamiliar with these, see this list of Password Special Characters from the OWASP FoundationLinks to an external site.. https://www.owasp.org/index.php/Password_special_characters 
+**Repeat the process to generate additional passwords**
 
-Reference: (ChatGPT, personal communication, February 11, 2023)
+Credits:
+ChatGPT, personal communication, April 15, 2023
+https://github.com/TiffanyCasey/Password-Generator
+https://stackoverflow.com/questions/62627469/random-password-generator-with-prompts 
+
+License
+This project is licensed under the MIT License.
+
+Features
+Allows users to choose the length of the password (between 8 and 128 characters).
+Provides options to include lowercase, uppercase, numeric, and special characters in the password.
+Validates user inputs and ensures at least one character type is selected.
+Generates a random password based on the selected criteria.
+Displays the generated password in an alert dialog.
+
+
