@@ -1,5 +1,6 @@
 
 Password Generator
+
 A simple password generator that allows users to generate secure passwords based on responses to prompted character selections.
 
 
@@ -12,14 +13,17 @@ Usage
 **Repeat the process to generate additional passwords**
 
 Credits:
+
 ChatGPT, personal communication, April 15, 2023
+
 https://github.com/TiffanyCasey/Password-Generator
+
 https://stackoverflow.com/questions/62627469/random-password-generator-with-prompts 
 
-License
+License:	
 This project is licensed under the MIT License.
 
-Features
+Features:	
 Allows users to choose the length of the password (between 8 and 128 characters).
 Provides options to include lowercase, uppercase, numeric, and special characters in the password.
 Validates user inputs and ensures at least one character type is selected.
