@@ -22,3 +22,5 @@ THEN the password is either displayed in an alert or written to the page
 
 
 The password can include special characters. If you're unfamiliar with these, see this list of Password Special Characters from the OWASP FoundationLinks to an external site.. https://www.owasp.org/index.php/Password_special_characters 
+
+Reference: (ChatGPT, personal communication, February 11, 2023)
